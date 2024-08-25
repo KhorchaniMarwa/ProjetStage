@@ -1,0 +1,79 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 80px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 10; 
+}
+
+#navbar{
+    display: flex;
+    align-items:   center;
+    justify-content: center;
+}
+#navbar li {
+    list-style: none;
+    padding:  0 20px;
+    position: relative;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem ;
+    font-weight: 600;
+    color: rgba(80, 79, 90, 0.822);
+    
+}
+#navbar li a:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-underline-offset: 20px;
+}
+#info {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-top: 100px;
+    margin-left: 470px;
+    text-align: center;
+}
+
+#info p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+#info input,#options,button {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#info input::placeholder {
+    color: #999;
+}
+button{
+    background-color: blue;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+}
+select{
+    cursor: pointer;
+}
+body{
+    background-image: url('cover.avif');
+}
+#map{
+    color: white;
+    text-decoration: none;
+}
